@@ -4,7 +4,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
 const app = express()
-const token = "REDACTED"
+const token = "EAAJZBrSKyBZBsBACTqT1ZCk0kEy86GsngmwqUwAbzLyVGD93J8RSXhw7ZBpd2dFQ7xf3iQZAM7VXyqPAZCqeSc7YQfjZB9GyIdHU9d7vDOgQ4QZCEVvyr1WlB63ttdytd2HFF1Xzq7IaA2ZCnlxZBqpYtdvuy9ZCYZCG7KNudOeFNJ4qBzXHONbNoiYw"
 
 app.set('port', (process.env.PORT || 5000))
 
